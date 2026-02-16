@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "prisma generate && prisma migrate dev && prisma db seed && next build",
     "start": "next start",
     "lint": "next lint"
   },
@@ -22,5 +22,8 @@
     "remark": "^15.0.1",
     "remark-html": "^16.0.1",
     "winston": "^3.19.0"
+  },
+  "devDependencies": {
+    "cypress": "^13.6.4"
   }
 }
