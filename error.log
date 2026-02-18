@@ -28,3 +28,15 @@
 {"error":{},"level":"error","message":"Falha ao obter o post como slug:","slug":"dicas-de-acessibilidade-webs"}
 {"error":{"clientVersion":"5.9.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
 {"error":{"clientVersion":"5.9.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","name":"PrismaClientInitializationError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter o post como slug:","slug":"dicas-de-acessibilidade-web"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter o post como slug:","slug":"dicas-de-acessibilidade-web"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
+{"error":{"clientVersion":"5.9.1","code":"P2022","meta":{"column":"Post.like","modelName":"Post"},"name":"PrismaClientKnownRequestError"},"level":"error","message":"Falha ao obter posts"}
