@@ -45,6 +45,10 @@
     color: #81FE88;
 }
 
+.actions {
+    display: flex;
+}
+
 .footer {
     padding: 16px;
     display: flex;
