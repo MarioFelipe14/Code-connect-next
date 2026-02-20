@@ -8,6 +8,7 @@ import db from "../../../../prisma/db";
 import styles from './page.module.css'
 import { CardPost } from "@/components/CardPost";
 import { notFound, redirect } from "next/navigation";
+import { CommentList } from "@/components/CommentList";
 
 async function getPostBySlug(slug) {
     try {
@@ -17,7 +18,11 @@ async function getPostBySlug(slug) {
             },
             include: {
                 author: true,
-                comments: true
+                comments: {
+                    include: {
+                        author: true
+                    }
+                }
             }
         })
 
@@ -61,6 +66,12 @@ const PagePost = async ({ params }) => {
             <h3 className={styles.subtitle}>Código:</h3>
             <div className={styles.code}>
                 <div dangerouslySetInnerHTML={{ __html: post.markdown }} />
+            </div>
+            <div>
+                <h2>
+                    Comentários
+                </h2>
+                <CommentList comments={post.comments} />
             </div>
         </div>
     )
