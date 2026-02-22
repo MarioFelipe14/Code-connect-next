@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { Modal } from "../Modal";
 
 import styles from './modalreply.module.css'
-import { Textarea } from "../TextArea";
+import { TextArea } from "../TextArea";
 import { SubmitButton } from "../SubmitButton";
 import { Comment } from "../Comment";
 import { postReply } from "@/actions";
@@ -25,7 +25,7 @@ export const ModalReply = ({ comment, post }) => {
                     <Comment comment={comment} />
                 </div>
                 <div className={styles.divider}></div>
-                <Textarea required rows={8} name="text" placeholder="Digite aqui..." />
+                <TextArea required rows={8} name="text" placeholder="Digite aqui..." />
                 <div className={styles.footer}>
                     <SubmitButton>
                         Responder
