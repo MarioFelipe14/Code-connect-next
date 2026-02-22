@@ -4,7 +4,7 @@ import { useRef } from "react";
 import { Modal } from "../Modal";
 
 import styles from './modalreply.module.css'
-import { Textarea } from "../Textarea";
+import { Textarea } from "../TextArea";
 import { SubmitButton } from "../SubmitButton";
 import { Comment } from "../Comment";
 import { postReply } from "@/actions";

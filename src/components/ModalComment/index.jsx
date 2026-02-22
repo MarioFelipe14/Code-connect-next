@@ -4,7 +4,7 @@ import { useRef } from "react"
 import { IconButton } from "../IconButton"
 import { Modal } from "../Modal"
 import { Chat } from "../icons/Chat"
-import { Textarea } from "../Textarea"
+import { Textarea } from "../TextArea"
 
 import styles from './commentmodal.module.css'
 import { SubmitButton } from "../SubmitButton"
