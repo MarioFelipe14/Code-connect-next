@@ -9,7 +9,7 @@ import banner from './error/404.png'
 export default async function NotFound() {
     return (
         <div className={style.container}>
-            <Image src={banner} />
+            <Image src={banner} alt="banner do not found" />
             <Heading>Opa! Ocorreu um erro.</Heading>
             <p className={style.text}>Não conseguimos carregar a página, volte para seguir navegando.</p>
             <Link href="/" className={style.link}>
