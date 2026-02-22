@@ -4,6 +4,8 @@ import styles from "./page.module.css";
 import Link from "next/link";
 import db from "../../prisma/db";
 
+export const dynamic = 'force-dynamic';
+
 async function getAllPosts(page, searchTerm) {
   try {
 
@@ -39,6 +41,8 @@ async function getAllPosts(page, searchTerm) {
     return { data: [], prev: null, next: null }
   }
 }
+
+
 
 
 export default async function Home({ searchParams }) {
